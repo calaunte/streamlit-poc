@@ -4,8 +4,8 @@ import json
 
 # Define model options with their corresponding URLs
 MODEL_OPTIONS = {
-    "meta/llama-2-7b-chat": "http://0.0.0.0:8000/v1/chat/completions",
-    "nv-mistralai/mistral-nemo-minitron-8b-8k-instruct": "http://0.0.0.0:8080/v1/chat/completions",
+    "meta/llama-2-7b-chat": "http://10.2.9.84:8000/v1/chat/completions",
+    "nv-mistralai/mistral-nemo-minitron-8b-8k-instruct": "http://10.2.9.84:8080/v1/chat/completions",
 }
 
 def get_last_exchange(messages):
